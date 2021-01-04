@@ -7,7 +7,6 @@ Multisig has always been amazing in theory, but in practice it has been too diff
 Multisig is still [not as easy as we would like it to be](https://medium.com/shiftcrypto/the-pitfalls-of-multisig-when-using-hardware-wallets-9b0e98e4c19c), but it is getting better every day.
 It is finally at the point where the security benefits far outweigh the costs for large HODLers.
 Here are some changes that have made multisig mainstream accessible:
-
 * **[BIP174 (PSBT)](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) created a standard for multisig interoperability** between hardware wallets.
 * **Multiple hardware wallets now support multisig**, and their quality is increasing (better airgaps, hardware, UX, compatibility, etc).
 * **Multiple software implementations now exist** to coordinate multisig transactions (Electrum, specter-desktop, Caravan) as well as paid services (Casa, Unchained Capital, etc).
@@ -20,7 +19,7 @@ Here are some changes that have made multisig mainstream accessible:
 There have been [so many hardware wallet vulnerabilities](https://twitter.com/mflaxman/status/1149018598708568065) and we expect new ones will continue to be discovered; multisig fundamentally doesn't change that.
 The big difference is that a proper multisig scheme allows for 1 (or more) catastrophic failures without putting funds at risk.
 
-### Shamir's Secret Sharing Scheme
+#### Shamir's Secret Sharing Scheme
 Multisig is strictly superior to [Shamir's Secret Sharing Scheme](https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing) (SSSS), and while SSSS is elegant in theory it is very easy to mess up in practice.
 SSSS also reintroduces a single point of failure; in order for a key to be generated (or used) it must be recombined in a single place.
 We prefer to call it [Shamir's Secret Snakeoil](https://en.bitcoin.it/wiki/Shamir_Secret_Snakeoil).

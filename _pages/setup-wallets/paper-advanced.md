@@ -2,7 +2,7 @@
 title: Setup Paper Wallet
 ---
 
-### Use a Clean Machine
+## Use a Clean Machine
 If there were malware on your machine and this seed escaped, it would **significantly** degrade the security of your multisig scheme.
 Assuming your attacker has 1 of your `2-of-3` needed keys, then you effectively now have a `1-of-2` scheme.
 Introducing the possibility of a single point of failure would mean we're now suffering [the negatives of multisig](/known-issues/multisig), without getting (most of) the benefits.
@@ -30,14 +30,12 @@ If you have an Ubuntu installer DVD or pen drive (see [Computer Configuration se
 1. Reconnect the computer to the internet.
 
 You can further enhance this with two (optional) steps:
-
 * Before getting started, setup full disk encryption (see [Advanced Computer Configuration section](../setup-computer/computer-advanced)) with a **very** long passphrase so that any data that may have persisted on your hard drive after step 3 (above) can never be recovered.
 * When wiping your hard drive, use [a secure erase program](https://askubuntu.com/questions/17640/how-can-i-securely-erase-a-hard-drive) to make sure that nothing survives.
-
 Note that these do not work perfectly on Flash memory (SSD drives), so the previous technique is preferred.
 You can read more about this [here](https://wiki.archlinux.org/index.php/Securely_wipe_disk) and [here](https://www.howtogeek.com/234683/why-you-cant-securely-delete-a-file-and-what-to-do-instead/).
 
-### Verify Seed Generation
+## Verify Seed Generation
 
 #### Confirm Seed Matches Zpub
 This is important in case SeedPicker was actually replaced by malware trying to steal your bitcoin!
@@ -66,7 +64,7 @@ This is not currently documented.
 Pull requests with clarification are welcome.
 Specter-Desktop can receive this info via QR-code airgap.
 
-### Improve Seed Generation
+## Improve Seed Generation
 
 #### Put Each Word Back in the Hat Between Draws
 BIP39 allows for a word to be repeated in your seed phrase should it happen to be randomly drawn multiple times (very unlikely).
@@ -88,6 +86,6 @@ Caution: you now have to come up with a way to backup/protect this passphrase, a
 Because this step is only for **expert** users, we're going to ignore it for now.
 Be sure to use a hardware wallet where you can enter the passphrase directly on the device to avoid [potential issues](https://benma.github.io/2020/09/02/trezor-keepkey-passphrase.html).
 
-### Not Perfect
+## Not Perfect
 No setup is perfect and this one is no exception.
 Read more about known issues with SeedPicker [here](/known-issues/software/seedpicker).

@@ -2,7 +2,7 @@
 title: Coordinate Multisig
 ---
 
-### Verify M, N, and Pubkeys
+## Verify M, N, and Pubkeys
 Even if you have the correct `m-of-n` (`2-of-3`), you need to be sure that the public keys used correspond to the private keys you actually control!
 
 #### Cobo

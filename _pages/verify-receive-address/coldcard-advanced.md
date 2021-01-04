@@ -2,7 +2,7 @@
 title: Verify Receive Address on Coldcard
 ---
 
-### Warning
+## Warning
 [Coldcard doesn't currently support address exploration with an airgap](https://github.com/Coldcard/firmware/pull/25).
 In order to verify a receive address on a coldcard you must significantly weaken your airgap and plug the Coldcard into your laptop via USB port.
 
