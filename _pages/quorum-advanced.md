@@ -2,7 +2,7 @@
 title: Pick Quorum
 ---
 
-## Picking Your M and N
+### Picking Your M and N
 It might seem easy, but this choice is actually complex, especially since we want no hardware wallet vendor to be used for a quorum of seeds.
 We'll see below that you want your m-of-n multisig threshold to be `1 < m < n`.
 
@@ -22,6 +22,7 @@ In some clever attacks involving bip32 derivation paths, an attacker could even 
 
 #### 2-of-3 is Good
 This is a good default choice:
+
 * It is _relatively_ easy to implement
 * Has few moving parts
 * Minimal hardware purchasing requirements

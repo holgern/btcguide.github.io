@@ -2,7 +2,7 @@
 title: Setup Hardware Wallet Overview
 ---
 
-#### Overview
+## Overview
 We're going to configure a `2-of-3` multisignature scheme, meaning you will have 3 wallets, with a quorum of 2 required to send funds
 (or safely verify an address to receive funds on).
 

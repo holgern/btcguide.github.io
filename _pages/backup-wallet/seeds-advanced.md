@@ -2,14 +2,14 @@
 title: Backup Seeds
 ---
 
-## Think Hard About Your Risks
+### Think Hard About Your Risks
 It is a natural human bias to be more concerned with theft vs loss.
 An easy window into our psychology is that we are all terrified of homicide but in fact suicide is more common.
 Non-expert users should question themselves when taking extreme steps to protect against theft over loss.
 
 There are many tradeoffs between security/redundancy below and only you can decide what the appropriate balance is for your needs.
 
-## Multiple Locations
+### Multiple Locations
 
 #### Physical Security
 Not only does storing all of your bitcoin information in one place make it less secure, it also makes you a target!
@@ -27,7 +27,7 @@ As you are only carrying 1 (of a needed 2) seeds, should you be robbed during th
 Important note: in the event a seed is compromised you need to retrieve `m` seeds ASAP to "rotate" out the seed that was stolen (this is accomplished by moving your funds to a new multisig scheme where you control *all* 3 seeds again).
 
 
-## Estate Planning
+### Estate Planning
 The hardest bitcoin security question for most bitcoiners to answer is "what happens to your bitcoin if you get hit by a bus?"
 Unfortunately, ensuring your bitcoin is recoverable by your loved ones **and nobody else** is a very challenging task.
 Multisig is the best tool we have to aid in this process.
@@ -40,15 +40,18 @@ Imagine you have a 2-of-3 scheme with seeds A, B, and C, all of which you initia
 You and your spouse want to always have access to your bitcoins, and you want your children to only get access in the event both you and your spouse are dead.
 
 You might do the following:
+
 * Give your family (you, your spouse, and your children) a copy of seed A. You/spouse store seed A at home or work and your children also store seed A somewhere that only they have access to (perhaps their home, work or a safe deposit box).
 * Put seed B in a safe-deposit box that only you and your spouse have access to.
 * Give seed C to your lawyer or other trusted-friend, to share with your children in the event of your death only. They will also share it with you if needed as part of an emergency recovery.
 
 As a result of this scheme:
+
 * You and your spouse always have regular access via seeds A & B, provided that you didn't lose your copy of seed A and that you can get into your safe deposit box for seed B. If you lose seed A, you can ask your spouse or children for their copy as a backup. In the event of a problem retrieving seed B from the bank, you can ask your lawyer for assistance in recovery (as they have seed C). Keep in mind that if you lose *both* seeds A and B, your bitcoins are permanently lost.
 * In the event both you and your spouse die death, your children can recover. They already have seed A, they just need seed B (from the bank) or seed C (from the lawyer). They can get access to seed B by contacting the bank (assuming you designated your children as the next-of-kin for your safe deposit box) or seed C by contacting the lawyer.
 
 Of course, there are all kinds of tradeoffs/choices to be made:
+
 * If *both* your lawyer and the bank are dishonest (or compelled by a government order), they can collude to steal your bitcoin (they have access to seeds B and C)!
 * If *both* your lawyer and the bank are unlucky/negligent (perhaps they both suffer catastrophic fires in the same day!), you can be locked out of your bitcoin forever (seeds B and C are lost, as seed A A alone is not enough to meet the `2-of-3` threshold).
 * If your children want to steal their inheritance before you die and are able to can collude with (or trick) either the bank or the lawyer, they can get seed B or C and combine it with seed A (which they already have).
@@ -62,7 +65,7 @@ However, each of those choices will introduce new risks.
 
 You can quickly see that this scheme lends itself better to something like `3-of-5`, so you can have more entities/redundancy, and clearer organizational lines (less copies of keys floating around, so you can know for sure *who* signed each transaction).
 
-## Protect Your Backups
+### Protect Your Backups
 
 #### Metal
 [Metal bitcoin seed storage](https://blog.lopp.net/metal-bitcoin-seed-storage-stress-test-round-iii/) is the most durable, as paper can fade, burn or smudge if wet.
