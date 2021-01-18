@@ -1,5 +1,7 @@
 AML
 Analytics
+Andreas
+Antonopolous
 AWG
 Altcoin
 BIP
@@ -30,6 +32,7 @@ Electrum
 Electrum's
 FIXME
 Flaxman
+GBP
 Guillemet
 HODLer
 HODLers
@@ -120,6 +123,7 @@ btcguide
 casa
 certutil
 checkboxes
+cleartext
 clicky
 cobo
 codebase
@@ -171,6 +175,7 @@ img
 inactions
 ing
 io
+janoside
 jekyll
 jpeg
 jpg
